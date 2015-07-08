@@ -1,3 +1,11 @@
-.idea/
-node_modules/
+node_modules
+dist
+.tmp
+.sass-cache
 app/libs
+_local.config.js
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+.idea/workspace.xml
+.idea/tasks.xml
+npm-debug.log
