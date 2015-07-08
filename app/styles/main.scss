@@ -1,0 +1,11 @@
+@import "../libs/foundation/scss/foundation";
+
+@import "components/user-cards";
+
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

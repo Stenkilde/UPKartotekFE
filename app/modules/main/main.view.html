@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="small-4 columns" ng-repeat="user in main.users">
+        <div class="user-card">
+            <div class="front">
+                <header class="header">
+                    <a href="">
+                        <i>A</i>
+                    </a>
+                </header>
+                <img src="{{user.picture}}" class="user-image" alt=""/>
+            </div>
+            <div class="back">
+                <p class="user-meta">{{user.firstname}} {{user.lastname}} - {{user.age}}</p>
+            </div>
+        </div>
+    </div>
+</div>
